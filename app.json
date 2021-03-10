@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/home/index",
+    "pages/personal/home/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3AD0AC",
+    "navigationBarTitleText": "seven",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/home/index"
+      },
+      {
+        "pagePath": "pages/personal/home/index"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "content": "./components/content/content"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "位置信息"
+    }
+  }
+}

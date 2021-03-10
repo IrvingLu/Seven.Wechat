@@ -1,0 +1,4 @@
+<scroll-view scroll-y="true" bindrefresherrefresh="upperRefresh" bindscrolltolower="loadMore" enhanced paging-enabled
+  refresher-enabled refresher-triggered="{{refreshStatus}}"  style="height:{{view_height}}">
+  <slot></slot>
+</scroll-view>
